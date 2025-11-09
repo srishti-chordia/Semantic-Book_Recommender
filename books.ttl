@@ -1,0 +1,353 @@
+@prefix ex: <http://example.org/schema/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:book1 a ex:Book ;
+    ex:hasAuthor "J.R.R. Tolkien" ;
+    ex:hasGenre "Fantasy" ;
+    ex:hasRating 4.8e+00 ;
+    ex:hasTitle "The Hobbit" ;
+    ex:hasYear 1937 .
+
+ex:book10 a ex:Book ;
+    ex:hasAuthor "Sarah J. Maas" ;
+    ex:hasGenre "Fantasy" ;
+    ex:hasRating 4.5e+00 ;
+    ex:hasTitle "A Court of Thorns and Roses" ;
+    ex:hasYear 2015 .
+
+ex:book11 a ex:Book ;
+    ex:hasAuthor "Alex Michaelides" ;
+    ex:hasGenre "Thriller" ;
+    ex:hasRating 4.1e+00 ;
+    ex:hasTitle "The Silent Patient" ;
+    ex:hasYear 2019 .
+
+ex:book12 a ex:Book ;
+    ex:hasAuthor "Madeline Miller" ;
+    ex:hasGenre "Romance" ;
+    ex:hasRating 4.6e+00 ;
+    ex:hasTitle "The Song of Achilles" ;
+    ex:hasYear 2011 .
+
+ex:book13 a ex:Book ;
+    ex:hasAuthor "Madeline Miller" ;
+    ex:hasGenre "Fantasy" ;
+    ex:hasRating 4.4e+00 ;
+    ex:hasTitle "Circe" ;
+    ex:hasYear 2018 .
+
+ex:book14 a ex:Book ;
+    ex:hasAuthor "Taylor Jenkins Reid" ;
+    ex:hasGenre "Fiction" ;
+    ex:hasRating 4.7e+00 ;
+    ex:hasTitle "The Seven Husbands of Evelyn Hugo" ;
+    ex:hasYear 2017 .
+
+ex:book15 a ex:Book ;
+    ex:hasAuthor "James Clear" ;
+    ex:hasGenre "Self-Help" ;
+    ex:hasRating 4.8e+00 ;
+    ex:hasTitle "Atomic Habits" ;
+    ex:hasYear 2018 .
+
+ex:book16 a ex:Book ;
+    ex:hasAuthor "Mark Manson" ;
+    ex:hasGenre "Self-Help" ;
+    ex:hasRating 4.3e+00 ;
+    ex:hasTitle "The Subtle Art of Not Giving a F*ck" ;
+    ex:hasYear 2016 .
+
+ex:book17 a ex:Book ;
+    ex:hasAuthor "TJ Klune" ;
+    ex:hasGenre "Fantasy" ;
+    ex:hasRating 4.8e+00 ;
+    ex:hasTitle "The House in the Cerulean Sea" ;
+    ex:hasYear 2020 .
+
+ex:book18 a ex:Book ;
+    ex:hasAuthor "Rebecca Yarros" ;
+    ex:hasGenre "Fantasy" ;
+    ex:hasRating 4.6e+00 ;
+    ex:hasTitle "Iron Flame" ;
+    ex:hasYear 2023 .
+
+ex:book19 a ex:Book ;
+    ex:hasAuthor "Rebecca Yarros" ;
+    ex:hasGenre "Fantasy" ;
+    ex:hasRating 4.7e+00 ;
+    ex:hasTitle "Fourth Wing" ;
+    ex:hasYear 2023 .
+
+ex:book2 a ex:Book ;
+    ex:hasAuthor "George Orwell" ;
+    ex:hasGenre "Dystopian" ;
+    ex:hasRating 4.6e+00 ;
+    ex:hasTitle "1984" ;
+    ex:hasYear 1949 .
+
+ex:book20 a ex:Book ;
+    ex:hasAuthor "Gabrielle Zevin" ;
+    ex:hasGenre "Fiction" ;
+    ex:hasRating 4.5e+00 ;
+    ex:hasTitle "Tomorrow, and Tomorrow, and Tomorrow" ;
+    ex:hasYear 2022 .
+
+ex:book21 a ex:Book ;
+    ex:hasAuthor "Bonnie Garmus" ;
+    ex:hasGenre "Fiction" ;
+    ex:hasRating 4.6e+00 ;
+    ex:hasTitle "Lessons in Chemistry" ;
+    ex:hasYear 2022 .
+
+ex:book22 a ex:Book ;
+    ex:hasAuthor "Suzanne Collins" ;
+    ex:hasGenre "Dystopian" ;
+    ex:hasRating 4.2e+00 ;
+    ex:hasTitle "The Ballad of Songbirds and Snakes" ;
+    ex:hasYear 2020 .
+
+ex:book23 a ex:Book ;
+    ex:hasAuthor "Nikki Erlick" ;
+    ex:hasGenre "Fiction" ;
+    ex:hasRating 4.3e+00 ;
+    ex:hasTitle "The Measure" ;
+    ex:hasYear 2022 .
+
+ex:book24 a ex:Book ;
+    ex:hasAuthor "Pierce Brown" ;
+    ex:hasGenre "Sci-Fi" ;
+    ex:hasRating 4.6e+00 ;
+    ex:hasTitle "Light Bringer" ;
+    ex:hasYear 2023 .
+
+ex:book25 a ex:Book ;
+    ex:hasAuthor "Olivie Blake" ;
+    ex:hasGenre "Fantasy" ;
+    ex:hasRating 4.1e+00 ;
+    ex:hasTitle "The Atlas Paradox" ;
+    ex:hasYear 2022 .
+
+ex:book26 a ex:Book ;
+    ex:hasAuthor "V.E. Schwab" ;
+    ex:hasGenre "Fantasy" ;
+    ex:hasRating 4.4e+00 ;
+    ex:hasTitle "Vicious" ;
+    ex:hasYear 2013 .
+
+ex:book27 a ex:Book ;
+    ex:hasAuthor "V.E. Schwab" ;
+    ex:hasGenre "Fantasy" ;
+    ex:hasRating 4.5e+00 ;
+    ex:hasTitle "Vengeful" ;
+    ex:hasYear 2018 .
+
+ex:book28 a ex:Book ;
+    ex:hasAuthor "Samantha Shannon" ;
+    ex:hasGenre "Fantasy" ;
+    ex:hasRating 4.6e+00 ;
+    ex:hasTitle "The Priory of the Orange Tree" ;
+    ex:hasYear 2019 .
+
+ex:book29 a ex:Book ;
+    ex:hasAuthor "Casey McQuiston" ;
+    ex:hasGenre "Romance" ;
+    ex:hasRating 4.7e+00 ;
+    ex:hasTitle "Red, White & Royal Blue" ;
+    ex:hasYear 2019 .
+
+ex:book3 a ex:Book ;
+    ex:hasAuthor "J.K. Rowling" ;
+    ex:hasGenre "Fantasy" ;
+    ex:hasRating 4.9e+00 ;
+    ex:hasTitle "HarryPotter1" ;
+    ex:hasYear 1997 .
+
+ex:book30 a ex:Book ;
+    ex:hasAuthor "Karen M. McManus" ;
+    ex:hasGenre "Thriller" ;
+    ex:hasRating 4.3e+00 ;
+    ex:hasTitle "One of Us Is Lying" ;
+    ex:hasYear 2017 .
+
+ex:book31 a ex:Book ;
+    ex:hasAuthor "Karen M. McManus" ;
+    ex:hasGenre "Thriller" ;
+    ex:hasRating 4.2e+00 ;
+    ex:hasTitle "One of Us Is Next" ;
+    ex:hasYear 2020 .
+
+ex:book32 a ex:Book ;
+    ex:hasAuthor "Michelle Zauner" ;
+    ex:hasGenre "Memoir" ;
+    ex:hasRating 4.5e+00 ;
+    ex:hasTitle "Crying in H Mart" ;
+    ex:hasYear 2021 .
+
+ex:book33 a ex:Book ;
+    ex:hasAuthor "Amor Towles" ;
+    ex:hasGenre "Fiction" ;
+    ex:hasRating 4.4e+00 ;
+    ex:hasTitle "The Lincoln Highway" ;
+    ex:hasYear 2021 .
+
+ex:book34 a ex:Book ;
+    ex:hasAuthor "Emily St. John Mandel" ;
+    ex:hasGenre "Fiction" ;
+    ex:hasRating 4.3e+00 ;
+    ex:hasTitle "Sea of Tranquility" ;
+    ex:hasYear 2022 .
+
+ex:book35 a ex:Book ;
+    ex:hasAuthor "Gabrielle Zevin" ;
+    ex:hasGenre "Fiction" ;
+    ex:hasRating 4.5e+00 ;
+    ex:hasTitle "Tomorrow, and Tomorrow, and Tomorrow" ;
+    ex:hasYear 2022 .
+
+ex:book36 a ex:Book ;
+    ex:hasAuthor "Jennifer Egan" ;
+    ex:hasGenre "Fiction" ;
+    ex:hasRating 4.2e+00 ;
+    ex:hasTitle "The Candy House" ;
+    ex:hasYear 2022 .
+
+ex:book37 a ex:Book ;
+    ex:hasAuthor "Bonnie Garmus" ;
+    ex:hasGenre "Fiction" ;
+    ex:hasRating 4.6e+00 ;
+    ex:hasTitle "Lessons in Chemistry" ;
+    ex:hasYear 2022 .
+
+ex:book38 a ex:Book ;
+    ex:hasAuthor "Arkady Martine" ;
+    ex:hasGenre "Sci-Fi" ;
+    ex:hasRating 4.4e+00 ;
+    ex:hasTitle "A Desolation Called Peace" ;
+    ex:hasYear 2021 .
+
+ex:book39 a ex:Book ;
+    ex:hasAuthor "Lindsay Ellis" ;
+    ex:hasGenre "Sci-Fi" ;
+    ex:hasRating 4.2e+00 ;
+    ex:hasTitle "Axiom’s End" ;
+    ex:hasYear 2020 .
+
+ex:book4 a ex:Book ;
+    ex:hasAuthor "Harper Lee" ;
+    ex:hasGenre "Fiction" ;
+    ex:hasRating 4.7e+00 ;
+    ex:hasTitle "ToKillAMockingbird" ;
+    ex:hasYear 1960 .
+
+ex:book40 a ex:Book ;
+    ex:hasAuthor "Emily St. John Mandel" ;
+    ex:hasGenre "Fiction" ;
+    ex:hasRating 4.3e+00 ;
+    ex:hasTitle "Sea of Tranquility" ;
+    ex:hasYear 2022 .
+
+ex:book41 a ex:Book ;
+    ex:hasAuthor "John Green" ;
+    ex:hasGenre "Young Adult" ;
+    ex:hasRating 4.7e+00 ;
+    ex:hasTitle "The Fault in Our Stars" ;
+    ex:hasYear 2012 .
+
+ex:book42 a ex:Book ;
+    ex:hasAuthor "John Green" ;
+    ex:hasGenre "Young Adult" ;
+    ex:hasRating 4.5e+00 ;
+    ex:hasTitle "Looking for Alaska" ;
+    ex:hasYear 2005 .
+
+ex:book43 a ex:Book ;
+    ex:hasAuthor "John Green" ;
+    ex:hasGenre "Young Adult" ;
+    ex:hasRating 4.4e+00 ;
+    ex:hasTitle "Paper Towns" ;
+    ex:hasYear 2008 .
+
+ex:book44 a ex:Book ;
+    ex:hasAuthor "John Green" ;
+    ex:hasGenre "Young Adult" ;
+    ex:hasRating 4.2e+00 ;
+    ex:hasTitle "An Abundance of Katherines" ;
+    ex:hasYear 2006 .
+
+ex:book45 a ex:Book ;
+    ex:hasAuthor "J.D. Salinger" ;
+    ex:hasGenre "Fiction" ;
+    ex:hasRating 4.1e+00 ;
+    ex:hasTitle "The Catcher in the Rye" ;
+    ex:hasYear 1951 .
+
+ex:book46 a ex:Book ;
+    ex:hasAuthor "Harper Lee" ;
+    ex:hasGenre "Fiction" ;
+    ex:hasRating 4.8e+00 ;
+    ex:hasTitle "To Kill a Mockingbird" ;
+    ex:hasYear 1960 .
+
+ex:book47 a ex:Book ;
+    ex:hasAuthor "Jane Austen" ;
+    ex:hasGenre "Romance" ;
+    ex:hasRating 4.7e+00 ;
+    ex:hasTitle "Pride and Prejudice" ;
+    ex:hasYear 1813 .
+
+ex:book48 a ex:Book ;
+    ex:hasAuthor "F. Scott Fitzgerald" ;
+    ex:hasGenre "Fiction" ;
+    ex:hasRating 4.3e+00 ;
+    ex:hasTitle "The Great Gatsby" ;
+    ex:hasYear 1925 .
+
+ex:book49 a ex:Book ;
+    ex:hasAuthor "Herman Melville" ;
+    ex:hasGenre "Adventure" ;
+    ex:hasRating 4e+00 ;
+    ex:hasTitle "Moby-Dick" ;
+    ex:hasYear 1851 .
+
+ex:book5 a ex:Book ;
+    ex:hasAuthor "Frank Herbert" ;
+    ex:hasGenre "Sci-Fi" ;
+    ex:hasRating 4.5e+00 ;
+    ex:hasTitle "Dune" ;
+    ex:hasYear 1965 .
+
+ex:book50 a ex:Book ;
+    ex:hasAuthor "Leo Tolstoy" ;
+    ex:hasGenre "Historical Fiction" ;
+    ex:hasRating 4.4e+00 ;
+    ex:hasTitle "War and Peace" ;
+    ex:hasYear 1869 .
+
+ex:book6 a ex:Book ;
+    ex:hasAuthor "Aldous Huxley" ;
+    ex:hasGenre "Dystopian" ;
+    ex:hasRating 4.2e+00 ;
+    ex:hasTitle "BraveNewWorld" ;
+    ex:hasYear 1932 .
+
+ex:book7 a ex:Book ;
+    ex:hasAuthor "Brandon Sanderson" ;
+    ex:hasGenre "Fantasy" ;
+    ex:hasRating 4.4e+00 ;
+    ex:hasTitle "Mistborn" ;
+    ex:hasYear 2006 .
+
+ex:book8 a ex:Book ;
+    ex:hasAuthor "Matt Haig" ;
+    ex:hasGenre "Fiction" ;
+    ex:hasRating 4.3e+00 ;
+    ex:hasTitle "The Midnight Library" ;
+    ex:hasYear 2020 .
+
+ex:book9 a ex:Book ;
+    ex:hasAuthor "Andy Weir" ;
+    ex:hasGenre "Sci-Fi" ;
+    ex:hasRating 4.7e+00 ;
+    ex:hasTitle "Project Hail Mary" ;
+    ex:hasYear 2021 .
+
