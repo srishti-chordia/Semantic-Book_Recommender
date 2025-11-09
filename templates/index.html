@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semantic Book Recommender</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      text-align: center;
+      padding: 30px;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    form {
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 12px;
+      width: 300px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    select, button {
+      padding: 10px;
+      margin: 10px 0;
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+      width: 80%;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+    }
+    th {
+      background-color: #2c3e50;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1>📚 Semantic Book Recommender</h1>
+
+  <form action="/recommend" method="post">
+    <label for="genre">Select a Genre:</label>
+    <select name="genre" id="genre" required>
+      {% for genre in genres %}
+        <option value="{{ genre }}" {% if selected_genre == genre %}selected{% endif %}>{{ genre }}</option>
+      {% endfor %}
+    </select>
+    <button type="submit">Get Recommendations</button>
+  </form>
+
+  {% if books %}
+    <h2>Recommended Books for "{{ selected_genre }}"</h2>
+    <table>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Rating</th>
+      </tr>
+      {% for title, author, rating in books %}
+        <tr>
+          <td>{{ title }}</td>
+          <td>{{ author }}</td>
+          <td>{{ rating }}</td>
+        </tr>
+      {% endfor %}
+    </table>
+  {% endif %}
+</body>
+</html>
